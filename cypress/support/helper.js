@@ -26,3 +26,15 @@ export function loginViaAPI() {
     window.localStorage.setItem('user', JSON.stringify(sessionData))
   })
 }
+
+export function generateRandomUsername() {
+  const randomValue = Date.now()
+
+  return `Alex_${randomValue}`;
+}
+
+export function generateRandomEmail() {
+  const randomValue = Date.now()
+
+  return `Alex_${randomValue}@test.email`;
+}
