@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "slug": "hardcoded-article-c6gmn6",
+      "title": "Hardcoded Article",
+      "description": "About likes",
+      "body": "This is a hardcoded article",
+      "createdAt": "2022-11-02T18:47:46.781Z",
+      "updatedAt": "2022-11-02T18:47:46.781Z",
+      "tagList": [
+        "Hardcoded"
+      ],
+      "favorited": false,
+      "favoritesCount": 46,
+      "author": {
+        "username": "alex_1667414577304",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      }
+    }
+  ],
+  "articlesCount": 1
+}

@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-11-08T18:07:06.620Z",
+    "end": "2022-11-08T18:07:08.282Z",
+    "duration": 1662,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6e0d9b88-98f9-4541-a6c3-42f18f9a1a9b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\tagsMockTest.cy.js",
+      "file": "cypress\\e2e\\tagsMockTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Verify login helper",
+          "fullTitle": "Verify login helper",
+          "timedOut": null,
+          "duration": 1616,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "_HomePage.default.visit();\n_HomePage.default.getProfileButton().should('be.visible');\n_HomePage.default.getTagChip().should('contain', _tagsMock.default.tags[0]);\n_HomePage.default.getTagChip().should('contain', _tagsMock.default.tags[1]);",
+          "err": {},
+          "uuid": "3f0c020b-c3fe-4baf-b2a0-b1fc0c8446be",
+          "parentUUID": "6e0d9b88-98f9-4541-a6c3-42f18f9a1a9b",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "3f0c020b-c3fe-4baf-b2a0-b1fc0c8446be"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 1616,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
